@@ -1,0 +1,22 @@
+# Data
+data/lbnl/raw/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local environments
+.env
+venv/
+.venv/
