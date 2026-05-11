@@ -33,7 +33,7 @@ st.set_page_config(
 )
 
 # Inject global CSS
-from utils.sidebar import render_sidebar_alerts  # noqa: E402
+from utils.sidebar import render_sidebar_alerts, compute_active_alerts  # noqa: E402
 st.markdown(get_global_css(), unsafe_allow_html=True)
 render_sidebar_alerts()
 
@@ -117,7 +117,8 @@ with col5:
     st.metric("HVAC at Risk", n_high_risk,
               delta=f"of {n_fcus} units", delta_color="inverse")
 with col6:
-    st.metric("Active Alerts", len(alerts),
+    _alerts_for_count, _ = compute_active_alerts()
+    st.metric("Active Alerts", len(_alerts_for_count),
               delta="live", delta_color="off")
 
 
