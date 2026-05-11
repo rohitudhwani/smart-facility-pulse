@@ -395,7 +395,7 @@ with st.expander("⚠️ Known Limitations of This Benchmark"):
         - **No fault progression.**
           Each fault is held at constant severity for the full year. Real faults usually
           progress (a filter slowly clogs over weeks). Phase 2 enhancement: incorporate
-          fault progression into model training using Latinem's actual maintenance logs.
+          fault progression into model training using the FM team's actual maintenance logs.
         """
     )
 

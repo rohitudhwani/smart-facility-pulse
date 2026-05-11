@@ -100,7 +100,7 @@ def render_sidebar_alerts():
 
         st.markdown("---")
         st.markdown(
-            f"<small style='color:{TEXT_SECONDARY}'>Building: <b>Sobha Pilot FM</b><br>"
+            f"<small style='color:{TEXT_SECONDARY}'>Building: <b>Pilot FM Tower</b><br>"
             f"Last update: {last_update.strftime('%Y-%m-%d %H:%M')}</small>",
             unsafe_allow_html=True
         )

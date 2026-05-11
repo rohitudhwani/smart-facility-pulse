@@ -26,7 +26,7 @@ from utils.theme import (
 # PAGE CONFIG (must be first Streamlit call)
 # ============================================================
 st.set_page_config(
-    page_title="Smart Facility Pulse — Sobha Pilot",
+    page_title="Home · Smart Facility Pulse",
     page_icon="🏢",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -71,7 +71,14 @@ st.markdown(
     """
     <div class='brand-banner'>
         <h1>Smart Facility Pulse</h1>
-        <p>Sobha — Pilot FM Building · 20 Floors · 80 Zones · 1 Gymnasium · 2 Pools</p>
+        <div class='banner-subtitle'>Real-time operational intelligence for residential facility management</div>
+        <div class='banner-meta'>
+            <span class='meta-pill'><strong>20</strong> Floors</span>
+            <span class='meta-pill'><strong>80</strong> Monitored Zones</span>
+            <span class='meta-pill'><strong>1</strong> Gymnasium</span>
+            <span class='meta-pill'><strong>2</strong> Swimming Pools</span>
+            <span class='meta-pill'><strong>81</strong> FCUs</span>
+        </div>
     </div>
     """,
     unsafe_allow_html=True
@@ -222,7 +229,7 @@ else:
 st.markdown("---")
 st.markdown(
     f"<small style='color:{TEXT_SECONDARY}'>"
-    f"Smart Facility Pulse · Pilot proof-of-concept for Latinem Facilities Management. "
+    f"Smart Facility Pulse · Pilot proof-of-concept for facility management operations. "
     f"Comfort & pool data: synthetic (calibrated). HVAC fault model: trained on LBNL public FCU dataset."
     f"</small>",
     unsafe_allow_html=True

@@ -1,6 +1,6 @@
 # Smart Facility Pulse
 
-**A Streamlit dashboard for facilities management — real-time comfort monitoring, pool quality tracking, and HVAC predictive maintenance — built as a proof-of-concept for Latinem Facilities Management (Sobha Realty).**
+**A multi-page Streamlit dashboard for facilities management — real-time comfort monitoring, pool quality tracking, and HVAC predictive maintenance — built as a portfolio proof-of-concept around the operational needs of a residential FM team.**
 
 [![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](#) <!-- Replace # with your Streamlit Cloud URL after deployment -->
 
@@ -94,7 +94,7 @@ The current build is a Phase 1 pilot. Planned enhancements documented inside the
 
 - Connect to live BMS feed (Schneider EcoStruxure / Honeywell / Siemens / Nectar)
 - Replace symptom-to-fault rule layer with direct XGBoost scoring once internal FCU sensors are available
-- Calibrate model thresholds using Latinem's historical work-order data
+- Calibrate model thresholds using the FM team's historical work-order data
 - LLM-generated diagnostic narratives (replacing rule-based recommended actions)
 - CAFM/work-order system integration for closed-loop technician dispatch
 
@@ -104,4 +104,4 @@ Code: MIT. LBNL dataset is public domain (US Department of Energy).
 
 ## Author
 
-Built by Rohit, Data Analyst at Sobha Realty (Business Excellence). Portfolio project for transition into Data Science roles.
+Built as a project to provide a solution to real FM teams. The author is a Data Analyst transitioning into Data Science, working in the real estate sector with a background in engineering and BMS / facility operations.
