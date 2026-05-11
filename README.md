@@ -2,7 +2,7 @@
 
 **A multi-page Streamlit dashboard for facilities management — real-time comfort monitoring, pool quality tracking, and HVAC predictive maintenance — built as a portfolio proof-of-concept around the operational needs of a residential FM team.**
 
-[![Live Dashboard](https://smartfacilitymanagement.streamlit.app/)](#) 
+[Live Dashboard](https://smartfacilitymanagement.streamlit.app/)] 
 
 ---
 
@@ -39,7 +39,7 @@ The HVAC module is the ML showcase. The model is trained on LBNL's published Fan
 <img width="1535" height="822" alt="image" src="https://github.com/user-attachments/assets/37d371b9-48e1-444e-a82b-daff3b7a61e4" />
 
 ## Project structure
-
+```
 smart-facility-pulse/
 ├── notebooks/                    # End-to-end notebooks (data + model)
 │   ├── 01_synthetic_comfort_data.ipynb
@@ -63,7 +63,7 @@ smart-facility-pulse/
 │   ├── synthetic/                # Generated comfort + pool data
 │   └── lbnl/                     # Processed LBNL FCU subset
 └── models/                       # Trained XGBoost + SHAP artifacts
-
+```
 ## Methodology highlights
 
 ### Why time-based train/test split (not random)
