@@ -100,4 +100,4 @@ Code: MIT. LBNL dataset is public domain (US Department of Energy).
 
 ## Author
 
-Built as a project to provide a solution to real FM teams. The author is a Data Analyst transitioning into Data Science, working in the real estate sector with a background in engineering and BMS / facility operations.
+Built as a project to provide a solution to real FM teams. The author is a Data Analyst transitioning into Data Science, working in the real estate sector with a background in mechatronics engineering and deeply passionate about data.
